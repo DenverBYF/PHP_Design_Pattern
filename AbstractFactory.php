@@ -92,8 +92,8 @@ class PhoneXFactory implements Phone
 
 //client
 
-$factory = new PhoneXFactory();
-$screen = $factory->getScreen();
-$shell = $factory->getShell();
+$factoryX = new PhoneXFactory();
+$screen = $factoryX->getScreen();
+$shell = $factoryX->getShell();
 $screen->build();
 $shell->build();
